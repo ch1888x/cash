@@ -28,3 +28,11 @@ contactForm.addEventListener('submit', function (e) {
     alert('信息已提交，感谢您的联系！');
     this.reset();
 });
+const emailInput = contactForm.querySelector('input[type="email"]');
+emailInput.addEventListener('blur', function() {
+    const emailRegex = /^[a-zA - Z0 - 9_.+-]+@[a-zA - Z0 - 9 -]+\.[a-zA - Z0 - 9 -]+$/;
+    if (!emailRegex.test(this.value)) {
+        alert('请输入有效的邮箱地址');
+        this.value = '';
+    }
+});
