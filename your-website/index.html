@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh - CN">
 
+<head>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content="width=device - width, initial - scale = 1.0">
+    <title>个人展示网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#projects">项目经历</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页Banner -->
+    <section id="home">
+        <h1>欢迎来到我的个人网站</h1>
+        <p>展示个人风采与专业技能</p>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about">
+        <h2>关于我</h2>
+        <p>我是一名对技术充满热情的[你的职业/身份]，在[相关领域]有着丰富的经验和深入的研究。一直致力于不断学习和提升自己的专业技能，以应对各种技术挑战。</p>
+    </section>
+
+    <!-- 技能展示 -->
+    <section id="skills">
+        <h2>我的技能</h2>
+        <div class="skill - item">
+            <h3>HTML</h3>
+            <div class="progress - bar">
+                <div class="progress - fill" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill - item">
+            <h3>CSS</h3>
+            <div class="progress - bar">
+                <div class="progress - fill" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill - item">
+            <h3>JavaScript</h3>
+            <div class="progress - bar">
+                <div class="progress - fill" style="width: 80%;"></div>
+            </div>
+        </div>
+        <!-- 这里可继续添加其他技能 -->
+    </section>
+
+    <!-- 项目经历 -->
+    <section id="projects">
+        <h2>项目经历</h2>
+        <div class="project - item">
+            <h3>[项目名称1]</h3>
+            <p>[项目简介1]，在这个项目中，我负责[你的职责1]，通过[技术手段1]，成功实现了[项目成果1]。</p>
+        </div>
+        <div class="project - item">
+            <h3>[项目名称2]</h3>
+            <p>[项目简介2]，主要挑战是[面临的挑战2]，我运用[解决方法2]，最终达成了[项目成果2]。</p>
+        </div>
+        <!-- 可添加更多项目 -->
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact">
+        <h2>联系我</h2>
+        <p>邮箱：shixinqiangx@gmail.com</p>
+        <p>电话：09662348273</p>
+        <form>
+            <input type="text" placeholder="姓名">
+            <input type="email" placeholder="邮箱">
+            <textarea placeholder="留言"></textarea>
+            <input type="submit" value="提交">
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 你的名字. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
